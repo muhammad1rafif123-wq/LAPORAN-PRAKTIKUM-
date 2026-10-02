@@ -1,8 +1,8 @@
-nama   = input("Nama : ")
+name   = input("Nama : ")
 nim    = input("NIM : ")
-kelas  = input("Kelas Paralel : ")
+clas   = input("Kelas Paralel : ")
 ttl    = input("Tempat/Tanggal Lahir : ")
-alamat = input("Alamat : ")
+address= input("Alamat : ")
 hobby  = input("Hobby : ")
 hp     = input("No. HP : ")
 
