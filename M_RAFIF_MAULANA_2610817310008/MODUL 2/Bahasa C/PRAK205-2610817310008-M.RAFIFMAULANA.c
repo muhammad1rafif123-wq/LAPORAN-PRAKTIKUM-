@@ -10,12 +10,12 @@ int main () {
 
     double base = sqrt(b*b - a*a);
     double height = a;
-    double perimeter = a * base * b;
+    double perimeter = a + base + b;
     double area = 0.5 * base * height;
 
-    printf("Alas = %.2f cm\n", base);
-    printf("Tinggi = %.2f cm\n", height);
-    printf("Keliling = %.2f cm\n", perimeter);
-    printf("Luas = %.2f cm^2\n", area);
+    printf("Alas = %.f cm\n", base);
+    printf("Tinggi = %.f cm\n", height);
+    printf("Keliling = %.f cm\n", perimeter);
+    printf("Luas = %.f cm^2\n", area);
     return 0;
 }
