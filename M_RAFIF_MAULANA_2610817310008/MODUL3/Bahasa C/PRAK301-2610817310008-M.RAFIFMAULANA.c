@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c, t;
+    int a, b;
 
-    printf("Masukkan 3 angka : ");
-    scanf("%d %d %d", &a, &b, &c);
+    printf("Masukkan 2 angka : ");
+    scanf("%d %d", &a, &b);
 
-    if (a > b) { t = a; a = b; b = t; }
-    if (b > c) { t = b; b = c; c = t; }
-    if (a > b) { t = a; a = b; b = t; }
-
-    printf("%d %d %d\n", a, b, c);
-
+    if (a < b) {
+        printf("%d %d \n", a, b);
+    } else {
+        printf("%d %d \n", b, a);
+    }
     return 0;
 }
